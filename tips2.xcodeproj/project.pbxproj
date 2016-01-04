@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		8C7F52851C3881280018498F /* SettingsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8C7F52841C3881280018498F /* SettingsViewController.swift */; };
 		8CDDE0361C365CF500429F65 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8CDDE0351C365CF500429F65 /* AppDelegate.swift */; };
 		8CDDE0381C365CF500429F65 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8CDDE0371C365CF500429F65 /* ViewController.swift */; };
 		8CDDE03B1C365CF500429F65 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8CDDE0391C365CF500429F65 /* Main.storyboard */; };
@@ -34,6 +35,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		8C7F52841C3881280018498F /* SettingsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SettingsViewController.swift; sourceTree = "<group>"; };
 		8CDDE0321C365CF500429F65 /* tips2.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = tips2.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		8CDDE0351C365CF500429F65 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		8CDDE0371C365CF500429F65 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -100,6 +102,7 @@
 				8CDDE0351C365CF500429F65 /* AppDelegate.swift */,
 				8CDDE0371C365CF500429F65 /* ViewController.swift */,
 				8CDDE0391C365CF500429F65 /* Main.storyboard */,
+				8C7F52841C3881280018498F /* SettingsViewController.swift */,
 				8CDDE03C1C365CF500429F65 /* Assets.xcassets */,
 				8CDDE03E1C365CF500429F65 /* LaunchScreen.storyboard */,
 				8CDDE0411C365CF500429F65 /* Info.plist */,
@@ -261,6 +264,7 @@
 			files = (
 				8CDDE0381C365CF500429F65 /* ViewController.swift in Sources */,
 				8CDDE0361C365CF500429F65 /* AppDelegate.swift in Sources */,
+				8C7F52851C3881280018498F /* SettingsViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -401,6 +405,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = tips2/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.niyao.tips2;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -412,6 +417,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = tips2/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.niyao.tips2;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -485,6 +491,7 @@
 				8CDDE05C1C365CF500429F65 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		8CDDE05D1C365CF500429F65 /* Build configuration list for PBXNativeTarget "tips2Tests" */ = {
 			isa = XCConfigurationList;
@@ -493,6 +500,7 @@
 				8CDDE05F1C365CF500429F65 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		8CDDE0601C365CF500429F65 /* Build configuration list for PBXNativeTarget "tips2UITests" */ = {
 			isa = XCConfigurationList;
@@ -501,6 +509,7 @@
 				8CDDE0621C365CF500429F65 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
