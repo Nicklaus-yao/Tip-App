@@ -49,7 +49,7 @@ class ViewController: UIViewController {
     
     @IBAction func onTap(sender: AnyObject) {
         view.endEditing(true)
-        billField.text = "$" + billFieldtemp
+        billField.text = billFieldtemp
 
     }
 
